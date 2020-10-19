@@ -39,6 +39,30 @@ Pip must be used as Python module e.g. `python -m pip install pip --upgrade`.
 
 See package in [here.](https://github.com/users/Nicceboy/packages/container/package/multipython)
 
+
+## Tox.ini example
+
+Example tox file could look something like this:
+```ini
+[tox]
+envlist = py36,py37,py38,py39
+
+[testenv]
+platform = linux2|darwin|linux
+deps = 
+    pytest
+    pytest-cov
+install_command =
+    pip install -U {opts} {packages}
+# add posargs from command line
+commands = 
+        pytest {posargs} 
+
+[pytest]
+addopts = -v
+markers = "not-in-use"
+```
+
 ## License
 
 MIT
