@@ -14,3 +14,7 @@ Version installations are handled with [pyenv.](https://github.com/pyenv/pyenv)
 Current base image is Debian Buster (10).
 
 See Docker file in [here.](Dockerfile)
+
+## License
+
+MIT

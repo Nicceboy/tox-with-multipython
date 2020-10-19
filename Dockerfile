@@ -57,3 +57,5 @@ RUN apt-get update && apt-get install -y libssl-dev \
     # Reload shell
     # default is Python 3.6
     && source ~/.bashrc && python -m pip install tox tox-pyenv
+
+LABEL org.opencontainers.image.source https://github.com/Nicceboy/tox-with-multipython
