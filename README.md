@@ -9,11 +9,13 @@ Currently supports following *latest* minor versions:
   * 3.8.x
   * 3.9.x
 
-Version installations are handled with [pyenv.](https://github.com/pyenv/pyenv)
+Version installations are handled with [pyenv.](https://github.com/pyenv/pyenv) Check it out for managing specific versions of the Python if needed.
+
+By default, Python binaries are named as `python3.6`, `python3.7`, `python3.8` and `python3.9`. Python 3.6.x is default.
 
 Current base image is Debian Buster (10).
 
-See Docker file in [here.](Dockerfile)
+See Dockerfile in [here.](Dockerfile)
 
 ## Getting started
 
