@@ -1,8 +1,9 @@
 # Multi-Python with Tox for testing
 
+A "lightweight" Docker image with multiple Python versions and [tox](https://tox.readthedocs.io/en/latest/) installed - for application testing purposes. Additionally plugin [tox-pyenv](https://github.com/stavxyz/tox-pyenv) has been installed.
+
 ![build](https://img.shields.io/github/workflow/status/Nicceboy/tox-with-multipython/Docker) ![License](https://img.shields.io/github/license/Nicceboy/tox-with-multipython) 
 
-A "lightweight" Docker image with multiple Python versions and [tox](https://tox.readthedocs.io/en/latest/) installed - for application testing purposes.
 
 Currently supports following *latest* minor versions:
 
