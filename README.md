@@ -32,6 +32,8 @@ RUN source ~/.bashrc && do your stuff
 
 ```
 
+Pip must be used as Python module e.g. `python -m pip install pip --upgrade`.
+
 See package in [here.](https://github.com/users/Nicceboy/packages/container/package/tox-with-multipython)
 
 ## License

@@ -56,6 +56,6 @@ RUN apt-get update && apt-get install -y libssl-dev \
     && echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc \
     # Reload shell
     # default is Python 3.6
-    && source ~/.bashrc && python -m pip install tox tox-pyenv && pip install pip --upgrade
+    && source ~/.bashrc && python -m pip install tox tox-pyenv && python -m pip install pip --upgrade
 
 LABEL org.opencontainers.image.source https://github.com/Nicceboy/tox-with-multipython
