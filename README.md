@@ -25,7 +25,7 @@ See Dockerfile in [here.](Dockerfile)
 Image can be imported as following:
 
 ```Dockerfile
-FROM ghcr.io/Nicceboy/tox-with-multipython:latest
+FROM ghcr.io/nicceboy/multipython:latest
 
 # Recommended to change shell for bash that pyenv works correctly
 SHELL ["/bin/bash", "-c"]
