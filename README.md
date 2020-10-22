@@ -20,6 +20,8 @@ Current base image is Debian Buster (10).
 
 See Dockerfile in [here.](Dockerfile)
 
+> Image is updated once in a week with cron job
+
 ## Getting started
 
 Image can be imported as following:
