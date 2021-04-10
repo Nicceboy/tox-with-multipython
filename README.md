@@ -4,7 +4,6 @@ A "lightweight" Docker image with multiple Python versions and [tox](https://tox
 
 ![build](https://img.shields.io/github/workflow/status/Nicceboy/tox-with-multipython/Docker) ![License](https://img.shields.io/github/license/Nicceboy/tox-with-multipython) 
 
-
 Currently supports following *latest* minor versions:
 
   * 3.6.x
