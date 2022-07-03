@@ -1,4 +1,4 @@
-FROM debian:buster as build
+FROM debian:bullseye as build
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
@@ -43,7 +43,7 @@ RUN py36=$(pyenv install -l | grep " 3\.6\." | tail -n1 | tr -d " \n\t\r") \
     && pyenv install "$py39" \
     && pyenv global "$py36" "$py37" "$py38" "$py39"
 
-FROM debian:buster-slim as final
+FROM debian:bullseye-slim as final
 
 COPY --from=build /home/appuser/.pyenv /pyenv
 # Change default shell to bash
