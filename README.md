@@ -15,7 +15,7 @@ Version installations are handled with [pyenv.](https://github.com/pyenv/pyenv) 
 
 By default, Python binaries are named as `python3.6`, `python3.7`, `python3.8` and `python3.9`. Python 3.6.x is default.
 
-Current base image is Debian Buster (10).
+Current base image is Debian Bullseye (11).
 
 See Dockerfile in [here.](Dockerfile)
 
